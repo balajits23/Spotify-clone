@@ -1,0 +1,81 @@
+#userHomeBlock {
+  height: 100vh;
+}
+#userHomeBlock article {
+  display: flex;
+  height: 100vh;
+}
+.userLeftBlock {
+  flex-basis: 18%;
+  background-color: black;
+  color: white;
+}
+.userRightBlock {
+  flex-basis: 82%;
+  background-color: #1d1d1d;
+}
+.userLeftBlock svg {
+  fill: #fff;
+  width: 130px;
+  height: 60px;
+  margin: 22px 0 0 22px;
+}
+
+.userli ul li {
+  list-style: none;
+  margin: 15px 0 0 24px;
+}
+
+.userli ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.userli ul li a i {
+  padding: 0 20px 0 0;
+  font-size: 24px;
+}
+.playList ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.playList ul {
+  padding-top: 40px;
+  padding-left: 25px;
+}
+.playList ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.playList ul li a i {
+  font-size: 24px;
+  padding: 0 20px 0 0;
+}
+.installApp {
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.installApp span {
+  margin-left: 10px;
+}
+.userli ul li:nth-child(1) {
+  background-color: #1d1d1d;
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+.userli ul .search:hover {
+  font-weight: bold;
+}
+.userli ul .library:hover {
+  font-weight: bold;
+}
+.playList ul .createPlaylist:hover {
+  font-weight: bold;
+}
+.playList ul .likedSongs:hover {
+  font-weight: bold;
+}
+.installApp:hover {
+  font-weight: bold;
+}
